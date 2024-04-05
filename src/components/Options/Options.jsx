@@ -16,7 +16,7 @@ export default function Options({ updateFeedback, total, reset }) {
         Bad
       </button>
       {total > 0 && (
-        <button className={css.container, css.reset} onClick={reset}>
+        <button className={css.reset} onClick={reset}>
           Reset
         </button>
       )}
